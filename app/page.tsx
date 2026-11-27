@@ -1,9 +1,15 @@
-import Hero from "../components/hero";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Marquee from "../components/Marquee";
 
 export default function Home() {
   return (
-    <main>
-      <Hero />
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Marquee />
+      </main>
+    </>
   );
 }
